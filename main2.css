@@ -1,0 +1,20 @@
+.body{
+    background-color:palegreen;
+}
+
+.form{
+    background-color: gray;
+}
+
+.lbl{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    width: 100px;
+}
+
+.fld{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    text-align: left;
+    border-radius: 5px;
+}
