@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Tablas</title>
+</head>
+<style>
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: white;
+    }
+</style>
+
+<body>
+    <link rel="icon" type="image/jpg" href="./rsc/BurnDisk.ico">
+
+    <h1>Ejercicios con tablas</h1>
+    <table style="width: 100%;">
+        <th>Nombre</th><th>Apellido</th><th colspan="2">Dni y Fecha Nacimiento</th>
+        <tr>
+            <td>Guillermo</td><td>Sifuentes</td><td>10204050</td><td>10/02/1996</td>
+        </tr>
+        <tr>
+            <td>Carlos</td><td>Montoya</td><td>11121314</td><td>10/03/1992</td>
+        </tr>
+        <tr>
+            <td>Bruno</td><td>Bull</td><td>66884411</td><td>05/12/1986</td>
+        </tr>
+
+    </table>
+    
+    <br>
+
+    <table style="width: 50%">
+        <tr>
+            <th align="Left">Nombre</th><td>Jimmy Cairo</td>
+        </tr>
+        <tr>
+            <th align="Left" rowspan="2">Telefono</th><td>66651115</td>
+        </tr>
+        <tr>
+            <td>66654744</td>
+        </tr>
+
+    </table>
+</body>
+</html>
